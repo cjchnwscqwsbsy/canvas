@@ -2,7 +2,7 @@
  * Created by xrk on 17-11-1.
  */
 import { circleMotion, circleHorizontal } from './move';
-addLoadEvent = (func) => {
+const addLoadEvent = (func) => {
     let oldLoad = window.onload;
     if (typeof window.onload !== 'function') {
         window.onload = func;

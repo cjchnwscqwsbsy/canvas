@@ -9,7 +9,7 @@
 import { createCircle } from './shapeUtil';
 import { getCoordinate } from './util';
 
-circleMotion = () => {
+export const circleMotion = () => {
     const canvas = document.getElementById('root');
     if (canvas.getContext) {
         const context = canvas.getContext('2d');
@@ -34,7 +34,7 @@ circleMotion = () => {
 /*
  * 实心球水平移动
  * */
-circleHorizontal = () => {
+export const circleHorizontal = () => {
     const canvas = document.getElementById('root');
     if (canvas.getContext) {
         const context = canvas.getContext('2d');

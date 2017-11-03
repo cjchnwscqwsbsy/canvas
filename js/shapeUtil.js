@@ -4,7 +4,7 @@
 /*
  *   绘制一个圆形(false)/实心圆(true)
  * */
-export default createCircle = (context, x, y, r, flag) => {
+export const createCircle = (context, x, y, r, flag) => {
     context.beginPath();
     context.arc(x, y, r, 0, Math.PI*2, true);
     context.closePath();
