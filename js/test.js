@@ -40,6 +40,7 @@ const draw = (sun, moon, earth) => {
 }
 
 export const init = () => {
+    console.log("create an new branch before the last commit log!");
     const sun = new Image();
     const moon = new Image();
     const earth = new Image();
