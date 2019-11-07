@@ -41,6 +41,9 @@ const draw = (sun, moon, earth) => {
 
 export const init = () => {
     const sun = new Image();
+
+
+
     const moon = new Image();
     const earth = new Image();
     sun.src = 'https://mdn.mozillademos.org/files/1456/Canvas_sun.png';
